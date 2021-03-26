@@ -14,13 +14,13 @@
    - Điều gì làm mình cảm thấy thoải mái, vui thích trong tâm hồn.
    - Sinh viên liệt kê các vấn đề phát hiện, dưới dạng hạn chế và tính năng tương ứng dự kiến sẽ thực hiện.
 
-     3.2. Slides cần thể hiện Các mục tiêu dưới dạng các giải pháp cho vấn đề, và phương pháp sẽ sử dụng để đạt được các mục tiêu theo mẫu.
+    3.2. Slides cần thể hiện Các mục tiêu dưới dạng các giải pháp cho vấn đề, và phương pháp sẽ sử dụng để đạt được các mục tiêu theo mẫu.
 
    - Mục tiêu 1: Dự định đạt được bằng cách nào? Sản phẩm/tính năng là gì? Làm sao để biết vấn đề sẽ được giải quyết bằng sản phẩm/tính năng tạo ra?
    - Mục tiêu 2: Dự định đạt được bằng cách nào? Sản phẩm/tính năng là gì? Làm sao để biết vấn đề sẽ được giải quyết bằng sản phẩm/tính năng tạo ra?
    - ...
 
-     3.3. Slides cần thể hiện Cách tiếp cận dự kiến thông qua các sản phẩm sau:
+   3.3. Slides cần thể hiện Cách tiếp cận dự kiến thông qua các sản phẩm sau:
 
    - Nếu đề tài theo hướng ứng dụng doanh nghiệp hay trò chơi thông minh thì Slides cần thể hiện</br>
      +) Bản mẫu,</br>
@@ -40,7 +40,7 @@
      +) Ảnh chụp kết quả chạy thử nghiệm huấn luyện và suy luận bằng mã nguồn và bộ dữ liệu có sẵn, và</br>
      +) Bản mẫu</br>
 
-     3.4. Slides cần thể hiện các sản phẩm dự kiến của đề tài.
+   3.4. Slides cần thể hiện các sản phẩm dự kiến của đề tài.
 
    - Nếu đề tài theo hướng ứng dụng doanh nghiệp hay trò chơi thông minh thì Slides cần thể hiện các sản phẩm phần mềm với các tính năng NỔI BẬT dự kiến thu được ở đây, ví dụ như</br>
      +) Mã nguồn ứng dụng di động,</br>
@@ -60,7 +60,7 @@
      +) Ứng dụng biểu diễn việc sử dụng mô hình đã được triển khai,</br>
      +) Các tài liệu kỹ thuật hướng dẫn chi tiết phương pháp tái tạo các sản phẩm.</br>
 
-     3.5. Kế hoạch thực hiện:
+    3.5. Kế hoạch thực hiện:
 
    Slides cần thể hiện kế hoạch phù hợp để hoàn thành dự án, dựa vào các Mục tiêu, các Sản phẩm dự kiến, các cột mốc thời gian, và nguồn nhân lực hiện có.
 
