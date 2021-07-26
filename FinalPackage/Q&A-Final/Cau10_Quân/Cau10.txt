@@ -1,0 +1,4 @@
+10. Giải thích các công cụ, sản phẩm, mã nguồn nhóm đã sử dụng để kiểm
+soát chất lượng đồ án, bao gồm nhưng không giới hạn: Definition of
+Done, Coding Standards, Automated UI Design Testing, Unit Tests,
+Automated End-To-End Testing.

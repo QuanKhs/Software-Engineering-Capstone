@@ -1,0 +1,57 @@
+# Documentation
+# https://docs.docker.com/compose/compose-file
+
+version: "3"
+
+services:
+  eventstore:
+    image: eventstore/eventstore
+    ports:
+      - 2113:2113
+      - 1113:1113
+    environment:
+      - EVENTSTORE_CLUSTER_SIZE=1
+      - EVENTSTORE_RUN_PROJECTIONS=All
+      - EVENTSTORE_START_STANDARD_PROJECTIONS=true
+      - EVENTSTORE_EXT_TCP_PORT=1113
+      - EVENTSTORE_EXT_HTTP_PORT=2113
+      - EVENTSTORE_INSECURE=true
+      - EVENTSTORE_ENABLE_EXTERNAL_TCP=true
+      - EVENTSTORE_ENABLE_ATOM_PUB_OVER_HTTP=true
+    networks:
+      - backend
+  mongodb:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: mongodb
+    ports:
+      - 27017:27017
+    network_mode: bridge
+  k3-backend:
+    build:
+      context: "."
+    command: ${CONTAINER_COMMAND}
+    restart: always
+    deploy:
+      mode: replicated
+      replicas: ${CONTAINER_SCALE}
+    depends_on:
+      - eventstore
+    env_file:
+      - "./.env"
+    environment:
+      - EVENT_STORE_HOSTNAME=eventstore
+    ports:
+      - "${CONTAINER_PORT}:7070"
+    volumes:
+      - "./src:/app/src"
+    links:
+      - eventstore
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge

@@ -1,0 +1,4 @@
+5.Giải thích sản phẩm "Thiết kế tổng quan hệ thống (Architecture)" của nhóm. 
+Trình bày các bước nhóm đã thực hiện để tạo ra được sản phẩm này. 
+Tại sao cần tạo sản phẩm "Thiết kế tổng quan hệ thống"? 
+Sản phẩm này liên quan như thế nào đến sản phẩm “Proof of Concept”?
